@@ -24,11 +24,6 @@ class StatTracker
     # @team_stats = TeamStats.new(@games, @game_teams, @teams)
   end
 
-  def *
-    * = method
-    method
-  end
-
   def highest_total_score
     @game_stats.highest_total_score
   end
